@@ -1,0 +1,14 @@
+{
+  "name": "wire-ai-advertising",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
